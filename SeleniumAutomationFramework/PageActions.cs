@@ -18,8 +18,10 @@ namespace SeleniumAutomationFramework
         }
         public void Login(IWebDriver driver, String email, String password)
         {
+            basicMethod.clearField(driver, PageObjects.loginUsernameInput);
             basicMethod.clickElement(driver, PageObjects.loginUsernameInput);
             basicMethod.sendKeys(driver, PageObjects.loginUsernameInput, email);
+            basicMethod.clearField(driver, PageObjects.loginPassInput);
             basicMethod.clickElement(driver, PageObjects.loginPassInput);
             basicMethod.sendKeys(driver, PageObjects.loginPassInput,password);
             basicMethod.clickElement(driver, PageObjects.loginButton);
