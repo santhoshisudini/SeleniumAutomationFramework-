@@ -101,7 +101,11 @@
     <Compile Include="PageObjects.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Reporting.cs" />
+=======
+    <Compile Include="SeleniumOperations.cs" />
+>>>>>>> 39c55f8c3ec731a2981374230d47d797da5f38f3
     <Compile Include="Validations .cs" />
   </ItemGroup>
   <ItemGroup>
